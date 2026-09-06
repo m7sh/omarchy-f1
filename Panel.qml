@@ -152,6 +152,17 @@ Panel {
       onCloseRequested: root.close()
       onTabRequested: function(direction) { root.switchPanel(direction) }
 
+      Rectangle {
+        anchors.fill: parent
+        anchors.leftMargin: -Style.spacing.popupPadding
+        anchors.rightMargin: -Style.spacing.popupPadding
+        anchors.topMargin: -Style.spacing.popupPadding
+        anchors.bottomMargin: -Style.spacing.popupPadding
+        color: Qt.rgba(Color.popups.background.r, Color.popups.background.g, Color.popups.background.b, 1.0)
+        radius: Style.cornerRadius
+        z: -1
+      }
+
       Flickable {
         id: scrollArea
         anchors.fill: parent

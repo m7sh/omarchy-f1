@@ -16,7 +16,7 @@
 
 <br />
 
-<img src="assets/panel.png" alt="Omarchy F1 Hub Dashboard" width="820" style="border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
+<img src="assets/panel.png" alt="Omarchy F1 Hub Dashboard" width="520" style="border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
 
 </div>
 
@@ -68,7 +68,7 @@ Compact, glanceable, and fits neatly into any bar section:
 ### Popout F1 Hub Dashboard
 One click opens a full-featured dashboard with hero card, local weekend timetable, and championship standings:
 <div align="center">
-  <img src="assets/panel.png" alt="F1 Hub Panel" width="820" style="border-radius: 12px;">
+  <img src="assets/panel.png" alt="F1 Hub Panel" width="520" style="border-radius: 12px;">
 </div>
 
 <br />
