@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "mush.f1",
+  "name": "Formula 1",
+  "version": "1.0.0",
+  "author": "mush",
+  "license": "MIT",
+  "description": "Formula 1 race countdown, weekend session schedule, championship standings, and desktop alerts.",
+  "homepage": "https://github.com/m7sh/omarchy-f1",
+  "repository": "https://github.com/m7sh/omarchy-f1",
+  "keywords": [
+    "f1",
+    "formula1",
+    "racing",
+    "motorsport",
+    "schedule",
+    "standings",
+    "countdown",
+    "quickshell",
+    "omarchy"
+  ],
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Formula 1",
+    "description": "Race countdown, weekend session schedule, championship standings, and desktop alerts",
+    "category": "Info",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}
